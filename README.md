@@ -26,9 +26,23 @@ If the answer isn't in your documents, it says so — rather than making somethi
 ```
 Your documents
       ↓
-Extract text → Convert to embeddings → Store in memory
-                                              ↓
-Your question → Convert to embedding → Find closest match → Send to Gemini → Answer
+Extract text
+      ↓
+Generate embeddings
+      ↓
+Store vectors in LanceDB
+      ↓
+User question
+      ↓
+Generate query embedding
+      ↓
+Similarity search
+      ↓
+Retrieved document
+      ↓
+Gemini
+      ↓
+Answer
 ```
 
 The key insight: instead of searching for exact keywords, the pipeline searches for *meaning*. Asking "is banana a fruit?" finds a document about berries — because the concepts are semantically related, even if the words don't match.
