@@ -138,11 +138,3 @@ Answer: Bananas are berries in botanical terms.
 - How to structure a multi-file Python project with separation of concerns
 - Why encoding (UTF-8), API deprecation, and rate limits are real engineering problems
 
----
-
-## What's next
-
-- [ ] Add PDF support using `pdfplumber`
-- [ ] Persist embeddings to disk so documents don't re-embed on every run
-- [ ] Add a simple web interface with FastAPI
-- [ ] Store embeddings in a proper vector database (ChromaDB or Pinecone)
