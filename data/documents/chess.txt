@@ -1,0 +1,7 @@
+Chess is often used as an example of how quickly possibilities can grow in complex systems. Although the rules of chess are relatively simple, the number of possible games that can be played is astronomically large. Researchers estimate that the number of unique game sequences is around 10¹²⁰, a figure known as the Shannon Number.
+
+To put this into perspective, scientists estimate that the observable universe contains roughly 10⁸⁰ atoms. This means there are far more possible chess games than atoms in the known universe. Even modern supercomputers cannot analyze every possible chess game because the search space is simply too large.
+
+The huge number of possibilities is one reason why chess remains challenging despite being studied for centuries. Artificial intelligence systems such as Deep Blue and modern chess engines do not attempt to evaluate every possible game. Instead, they use advanced algorithms to examine the most promising moves and positions.
+
+Chess is frequently studied in mathematics, computer science, and artificial intelligence because it provides a useful example of decision-making, search algorithms, and combinatorial complexity. The game demonstrates how a small set of rules can produce an enormous number of possible outcomes.
